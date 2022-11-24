@@ -1,0 +1,46 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+
+/*my css starts here*/
+.sticky-top{
+    margin: auto;
+    background-color: navy;
+    position: sticky;
+    top:0;
+}
+
+#header-wrapper{
+    color:whitesmoke;
+}
+#jumbotron-1, #jumbotron-2,#jumbotron-3{
+padding-left: 5em;
+}
+
+#header-pic{
+width: 3rem;
+}
+
+#content-container{
+position:relative;
+}
+
+.copyright{
+    text-align: center;
+    margin-left:auto;
+}
